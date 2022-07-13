@@ -1,0 +1,1 @@
+for number in `seq 0 19`; do   echo "https://raw.githubusercontent.com/LearnWeb3DAO/NFT-Collection/main/my-app/public/cryptodevs/$number.svg"; wget "https://raw.githubusercontent.com/LearnWeb3DAO/NFT-Collection/main/my-app/public/cryptodevs/$number.svg"; done
